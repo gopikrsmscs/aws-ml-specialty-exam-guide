@@ -31,10 +31,10 @@ In AWS exam, you will be tested on the following key topics related to Data Engi
         - Apache Spark
         - Apache Hive
 
-### 1.1 Amazon S3{#as3}
+### 1.1 Amazon S3 {#as3}
 
 
-### 1.2 Amazon EFS{#aefs}
+### 1.2 Amazon EFS {#aefs}
 
 
-### 1.3 Amazon EBS{#aebs}
+### 1.3 Amazon EBS {#aebs}
