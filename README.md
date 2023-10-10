@@ -19,3 +19,12 @@ The exam has the following content domains and weightings:
 - **Domain 4: Machine Learning Implementation and Operations** (20% of scored
 content) 
 
+### Cheat sheets
+- [Data Engineering][data-engineering/README.md]
+- [Exploratory Data Analysis][exploratory-data-analysis/README.md]
+- [Modeling][modeling/README.md]
+- [Machine Learning Implementation and Operations][ml-implementation-operations/README.md]
+
+
+**Currently working on this***
+
