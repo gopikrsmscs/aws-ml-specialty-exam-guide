@@ -20,10 +20,10 @@ The exam has the following content domains and weightings:
 content) 
 
 ### Cheat sheets
-- [Data Engineering][data-engineering/README.md]
-- [Exploratory Data Analysis][exploratory-data-analysis/README.md]
-- [Modeling][modeling/README.md]
-- [Machine Learning Implementation and Operations][ml-implementation-operations/README.md]
+- [Data Engineering](data-engineering/README.md)
+- [Exploratory Data Analysis](exploratory-data-analysis/README.md)
+- [Modeling](modeling/README.md)
+- [Machine Learning Implementation and Operations](ml-implementation-operations/README.md)
 
 
 **Currently working on this***
