@@ -14,8 +14,10 @@ In the AWS exam, you will be tested on the following key topics related to Data 
 2. **Identify and Implement a Data Ingestion Solution**
    - Batch Processing & Stream Processing
    - [Amazon Kinesis](#akinesis)
-   - Amazon Kinesis Data Analytics
-   - Amazon Kinesis Data Firehose
+     - Kinesis Data Stream
+     - Kinesis Data Firehose
+     - Kinesis Data Analytics or Apache Flink
+     - Kinesis Video Analytics
    - Amazon EMR
    - [AWS Glue](#aglue)
    - AWS DataSync
@@ -63,7 +65,42 @@ In the AWS exam, you will be tested on the following key topics related to Data 
   - Archive data at low cost.
 
 ### 1.2 Amazon EFS <a name="aefs"></a>
-(TODO: Add content about Amazon EFS)
+- Serverless, fully elastic file storage.
+- 5 GB of standard storage.
+- Scalable, elastic, cloud-native NFS file system.
+- Scale on demand to petabytes
+- Designed to provide massively parallel shared access to thousands of Amazon EC2 instances
+- **Use Cases**
+  - Simplify DevOps
 
 ### 1.3 Amazon EBS <a name="aebs"></a>
-(TODO: Add content about Amazon EBS)
+- Easy to use, high performance block storage at any scale
+- **Use Cases**
+  - Build your SAN in the cloud for I/O intensive applications.
+  - Run relational or NoSQL databases.
+  - Right-size your big data analytics engines
+
+### 2.2 Amazon Kinesis <a name="akinesis"></a>
+Collect, process, and analyze real-time video and data streams.
+- **Kinesis Data Stream**
+  - Amazon Kinesis Data Streams is a serverless streaming data service that simplifies the capture, processing, and storage of data streams at any scale.
+  - Ingest and store data streams from hundreds of thousands of data sources:
+    - Log and event data collection
+    - IoT device data capture
+    - Mobile data collection
+    - Gaming data feed
+- **Kinesis Data Firehose**
+  - Amazon Kinesis Data Firehose is an extract, transform, and load (ETL) service that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services.
+    - Load real-time data
+Load streaming data into data lakes, data stores, and analytics tools for:
+    - Log and event analytics
+    - IoT data analytics
+    - Clickstream analytics
+Security monitoring
+
+- **Kinesis Vide Stream**
+  - With Amazon Kinesis Video Streams, you can more easily and securely stream video from connected devices to AWS for analytics, ML, playback, and other processing.
+  
+- **Kinesis Data Analytics or Apache Flink**
+  - Process and analyze streaming data
+  - Get actionable insights from streaming data in real time.
