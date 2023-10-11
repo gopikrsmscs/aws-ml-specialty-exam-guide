@@ -32,7 +32,7 @@ In the AWS exam, you will be tested on the following key topics related to Data 
      - Apache Hive
 
 ### 1.1 AWS S3 <a name="as3"></a>
-- Object Storage
+- Object/File Storage
 - Objects can be up to 5GB in size.
 - Objects are stored in buckets.
 - Object names must be unique.
@@ -43,7 +43,7 @@ In the AWS exam, you will be tested on the following key topics related to Data 
     - S3 Standard
       - Low latency and high performance.
       - Designed for 99.99% availability over a given year.
-  - **Changing Access**
+  - **Unknown or Changing Access**
     - S3 Intelligent-Tiering
       - Data that is accessed less frequently but requires rapid access when needed.
       - No operational overhead, no lifecycle charges, no retrieval charges, and no minimum storage duration.
@@ -58,6 +58,7 @@ In the AWS exam, you will be tested on the following key topics related to Data 
       - Long-term retention and digital preservation for data that may be accessed once or twice in a year.
 - **Use Cases**
   - Build data lakes.
+    - Stores structured,semi and unstructured data.
   - Backup and restore critical data.
   - Archive data at low cost.
 
